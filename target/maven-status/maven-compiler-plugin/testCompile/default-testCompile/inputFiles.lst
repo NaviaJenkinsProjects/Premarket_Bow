@@ -1,6 +1,7 @@
-D:\Jenkins\PreMarkets_NTP\src\test\java\com\stepdefinition\PreMarket.java
-D:\Jenkins\PreMarkets_NTP\src\test\java\com\config\TestConfig.java
-D:\Jenkins\PreMarkets_NTP\src\test\java\com\stepdefinition\MutualFund.java
-D:\Jenkins\PreMarkets_NTP\src\test\java\com\runner\Runner.java
-D:\Jenkins\PreMarkets_NTP\src\test\java\com\stepdefinition\Login_Page.java
-D:\Jenkins\PreMarkets_NTP\src\test\java\com\stepdefinition\ScreenShort.java
+D:\Jenkins\Premarket_Bow\src\test\java\com\runner\Runner.java
+D:\Jenkins\Premarket_Bow\src\test\java\com\stepdefinition\Demo.java
+D:\Jenkins\Premarket_Bow\src\test\java\com\stepdefinition\Chart.java
+D:\Jenkins\Premarket_Bow\src\test\java\com\stepdefinition\Login.java
+D:\Jenkins\Premarket_Bow\src\test\java\com\stepdefinition\ScreenShort.java
+D:\Jenkins\Premarket_Bow\src\test\java\com\config\TestConfig.java
+D:\Jenkins\Premarket_Bow\src\test\java\com\stepdefinition\Login_Page.java

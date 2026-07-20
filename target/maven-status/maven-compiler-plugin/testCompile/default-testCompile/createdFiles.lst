@@ -1,1 +1,7 @@
+com\runner\Runner.class
 com\config\TestConfig.class
+com\stepdefinition\Login_Page.class
+com\stepdefinition\Chart.class
+com\stepdefinition\Login.class
+com\stepdefinition\Demo.class
+com\stepdefinition\ScreenShort.class

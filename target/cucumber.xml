@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="7,018.321" tests="2" skipped="0" failures="2" errors="0">
-<testcase classname="Navia Online Trading Market Login" name="Login Navia" time="7,018.03">
-<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=148.0.7778.217)
+<testsuite name="Cucumber" time="7.247" tests="8" skipped="0" failures="8" errors="0">
+<testcase classname="Navia Online Trading Market Login" name="Login Navia" time="6.729">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a4df071e07ff0a2889094af385dbf52, findElement {using=xpath, value=(//button[@id='login_fsmt1'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65251}, goog:processID: 23908, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65251/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a4df071e07ff0a2889094af385dbf52">
-<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=148.0.7778.217)
+Command: [5e5786963a780132052201e5c6ec4c65, findElement {using=xpath, value=(//button[@id='login_fsmt1'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a4df071e07ff0a2889094af385dbf52, findElement {using=xpath, value=(//button[@id='login_fsmt1'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65251}, goog:processID: 23908, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65251/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a4df071e07ff0a2889094af385dbf52
+Command: [5e5786963a780132052201e5c6ec4c65, findElement {using=xpath, value=(//button[@id='login_fsmt1'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -33,8 +29,8 @@ Session ID: 3a4df071e07ff0a2889094af385dbf52
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at com.stepdefinition.Login.user_navigate_to_navia(Login.java:102)
-	at ✽.User Navigate to Navia(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:5)
+	at com.stepdefinition.Login_Page.user_navigate_to_navia(Login_Page.java:49)
+	at ✽.User Navigate to Navia(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:5)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -48,21 +44,21 @@ And User Click Otp Verification and enter manualy...........................skip
 And User Click Login Again..................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Navia Online Trading Market Login" name="Add and Remove Any Script and Verify" time="0.024">
+<testcase classname="Navia Online Trading Market Login" name="Add and Remove Any Script and Verify" time="0.018">
 <failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a4df071e07ff0a2889094af385dbf52, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65251}, goog:processID: 23908, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65251/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a4df071e07ff0a2889094af385dbf52">
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
 <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a4df071e07ff0a2889094af385dbf52, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65251}, goog:processID: 23908, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65251/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a4df071e07ff0a2889094af385dbf52
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -75,7 +71,7 @@ Session ID: 3a4df071e07ff0a2889094af385dbf52
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
 	at com.stepdefinition.ScreenShort.navigate_to_home_page(ScreenShort.java:74)
-	at ✽.Navigate to home page(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:16)
+	at ✽.Navigate to home page(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:16)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -87,22 +83,21 @@ And User POP Up Message Appear Verify POP UP................................skip
 And User Remove The "SWIGGY" Stock..........................................skipped
 ]]></system-out>
 </testcase>
-</testsuite>
- Navia" time="0.014">
+<testcase classname="Navia Online Trading Market Login" name="Payin - Withdraw Money from Navia" time="0.02">
 <failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a">
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
 <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -115,7 +110,7 @@ Session ID: 7a16d3e623d100e59b1f58aa8d68952a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
 	at com.stepdefinition.ScreenShort.navigate_to_home_page(ScreenShort.java:74)
-	at ✽.Navigate to home page(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:27)
+	at ✽.Navigate to home page(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:27)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -123,21 +118,21 @@ When Navigate to home page..................................................fail
 And User Click The Withdraw button..........................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Navia Online Trading Market Login" name="Payin - Add Money to Navia via UPI" time="0.026">
+<testcase classname="Navia Online Trading Market Login" name="Payin - Add Money to Navia via UPI" time="0.016">
 <failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a">
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
 <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -150,7 +145,7 @@ Session ID: 7a16d3e623d100e59b1f58aa8d68952a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
 	at com.stepdefinition.ScreenShort.navigate_to_home_page(ScreenShort.java:74)
-	at ✽.Navigate to home page(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:33)
+	at ✽.Navigate to home page(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:33)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -161,21 +156,21 @@ And User Choose Pay Using UPI...............................................skip
 And User Enter UPI/ID/Mobile Number and click pay now.......................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Navia Online Trading Market Login" name="User Check The Mutual Fund - UPI Payment - functionality" time="0.021">
+<testcase classname="Navia Online Trading Market Login" name="User Check The Mutual Fund - UPI Payment - functionality" time="0.012">
 <failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a">
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
 <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -188,7 +183,7 @@ Session ID: 7a16d3e623d100e59b1f58aa8d68952a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
 	at com.stepdefinition.ScreenShort.navigate_to_home_page(ScreenShort.java:74)
-	at ✽.Navigate to home page(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:41)
+	at ✽.Navigate to home page(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:41)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -205,16 +200,16 @@ And User Click enter UPI ID "6374837965@ptsbi" and Click Pay Via UPI........skip
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a">
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
 <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -227,7 +222,7 @@ Session ID: 7a16d3e623d100e59b1f58aa8d68952a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
 	at com.stepdefinition.ScreenShort.navigate_to_home_page(ScreenShort.java:74)
-	at ✽.Navigate to home page(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:51)
+	at ✽.Navigate to home page(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:51)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -241,21 +236,21 @@ And User Choose Candle "candle".............................................skip
 And User Check the one Minute and one Day Chart.............................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Navia Online Trading Market Login" name="Verify Charts - SENSEX Candle View" time="0.029">
+<testcase classname="Navia Online Trading Market Login" name="Verify Charts - SENSEX Candle View" time="0.021">
 <failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a">
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
 <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -268,7 +263,7 @@ Session ID: 7a16d3e623d100e59b1f58aa8d68952a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
 	at com.stepdefinition.ScreenShort.navigate_to_home_page(ScreenShort.java:74)
-	at ✽.Navigate to home page(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:63)
+	at ✽.Navigate to home page(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:63)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -281,21 +276,21 @@ And User Choose Candle "candle".............................................skip
 And User Check the one Minute and one Day Chart.............................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Navia Online Trading Market Login" name="Verify Charts - ICICIBANK and HDFCBANK F&amp;O" time="0.019">
+<testcase classname="Navia Online Trading Market Login" name="Verify Charts - ICICIBANK and HDFCBANK F&amp;O" time="0.015">
 <failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a">
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65">
 <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.14.1', revision: '03f8ede370'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a16d3e623d100e59b1f58aa8d68952a, get {url=https://rocket.tradeplusonline.com/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63680}, goog:processID: 18060, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63680/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a16d3e623d100e59b1f58aa8d68952a
+Command: [5e5786963a780132052201e5c6ec4c65, get {url=https://rocket.tradeplusonline.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CommonPC\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62782}, goog:processID: 39396, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62782/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e5786963a780132052201e5c6ec4c65
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -308,7 +303,7 @@ Session ID: 7a16d3e623d100e59b1f58aa8d68952a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
 	at com.stepdefinition.ScreenShort.navigate_to_home_page(ScreenShort.java:74)
-	at ✽.Navigate to home page(file:///D:/bk/PreMarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:74)
+	at ✽.Navigate to home page(file:///D:/Jenkins/Premarket_Bow/src/test/java/com/feature/DailyEightFortyTesting.feature:74)
 ]]>
 </failure>
 <system-out><![CDATA[
